@@ -1,5 +1,7 @@
 # sdlc
 
+<img src="./assets/logo.png" alt="sdlc robot mascot" width="160" align="right">
+
 Agentic quality-assurance and review workflows, written once and pointed at any
 project. Each workflow is a set of instructions for an AI agent — Claude Code
 CLI or any agent tool that can read files, run commands and start a fresh
