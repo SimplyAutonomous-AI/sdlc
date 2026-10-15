@@ -104,14 +104,12 @@ diff <(ls principles/*.md | sort) <(grep -o '](principles/[^)]*)' PRINCIPLES.md 
 All principles apply. Scope notes:
 
 - **§1** — no deploy path. Publishing this repo is outward-facing and needs the
-  owner's consent for that action. Debt D1 in [DEBT.md](./DEBT.md), which
-  tracked private details in the git history, is paid.
+  owner's consent for that action.
 - **§2** — origin is the NAS (`git remote get-url origin`).
 - **§4** — there is no decision queue here yet: ask in the conversation, one
   self-contained decision at a time.
-- **§17, §19, §20** — there is no `docs/` or plans folder yet. Until there is,
-  the docs are README.md and each workflow family's README, kept true under
-  §15, and the §20 debt register is [DEBT.md](./DEBT.md).
+- **§17, §19** — there is no `docs/` or plans folder yet. Until there is, the
+  docs are README.md and each workflow family's README, kept true under §15.
 - **§22** — there is no CDK infrastructure here.
 - **The workflows act on other repositories.** `unit-tests-update` and
   `code-review-update` edit and commit in the target repo (never push) and stop
