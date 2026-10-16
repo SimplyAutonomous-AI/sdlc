@@ -14,7 +14,8 @@ inherit its conversation.
 
 [`report-head.html`](./report-head.html) is the shared page head (doctype and
 CSS, light and dark) that both reports start from, so every report looks the
-same.
+same. Its opening comment carries the licence and both `Required Notice:`
+lines, so a report passed on carries them too.
 
 ## Running them
 

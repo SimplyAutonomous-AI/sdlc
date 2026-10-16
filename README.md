@@ -36,4 +36,6 @@ SimplyAutonomous.AI, LLC for it. A use neither permits, such as
 commercial use by a company larger than the Small Business licence's line
 (which counts affiliated organizations), requires a separate licence agreement
 signed with SimplyAutonomous.AI, LLC (admin@simplyautonomous.ai). All rights
-not granted are reserved.
+not granted are reserved. Every report the workflows write starts from a page
+head whose opening comment carries the licence and both `Required Notice:`
+lines; keep it when you pass a report on.

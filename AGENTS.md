@@ -83,6 +83,14 @@ home-directory path. It prints nothing and exits 1 when clean:
 git grep --untracked -n -I -E '192[.]168[.]|ssh:[/][/]|/Users[/]|~[/]' -- . ; echo "exit $? (1 = clean)"
 ```
 
+Both report heads carry the licence's `Required Notice:` lines, so every
+report does. Check that the heads are identical and their notices match
+LICENSE:
+
+```sh
+cmp workflows/unit-tests/report-head.html workflows/code-review/report-head.html && grep -q '^Required Notice:' LICENSE && diff <(grep '^Required Notice:' LICENSE) <(grep '^Required Notice:' workflows/unit-tests/report-head.html) && echo "notices in sync"
+```
+
 ## 4 · Scope of the principles
 
 [PRINCIPLES.md](./PRINCIPLES.md) is the index — one line per principle,

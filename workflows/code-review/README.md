@@ -9,6 +9,11 @@ Two complementary agentic workflows that hand off to each other in a loop, for *
 
 Both are plain instructions for an AI agent; there is no executable program. The updater drives the loop and starts each reviewer as a new isolated agent.
 
+[`report-head.html`](./report-head.html) is the shared page head (doctype and
+CSS, light and dark) that both reports start from. Its opening comment carries
+the licence and both `Required Notice:` lines, so a report passed on carries
+them too.
+
 ## Running them
 
 In Claude Code, from any directory:
